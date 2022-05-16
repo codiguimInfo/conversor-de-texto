@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Conversor de Texto</title>
+	<link rel="stylesheet" type="text/css" href="conversor.css">
+</head>
+<body>
+	<h1 id="title">Conversor de Texto</h1>
+	<hr>
+	<label id="digite">Digite o texto</label><br>
+	<textarea id="text"></textarea><br>
+<div id="btn">
+	<input type="button" onclick="maior()" value="A">
+	<input type="button" onclick="menor()" value="a">
+	<input id="clean" type="button" onclick="clean()" value="Limpar">
+</div>
+
+	
+</body>
+<script>
+		var text = document.getElementById('text')
+		
+
+		function maior(){
+			document.getElementById('text').value = text.value.toUpperCase()
+
+		}
+
+		function menor(){
+			document.getElementById('text').value = text.value.toLowerCase()
+		}
+
+		function clean(){
+			document.getElementById('text').value = ""
+		}
+
+
+	</script>
+</html>
