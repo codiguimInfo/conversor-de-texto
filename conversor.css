@@ -1,0 +1,24 @@
+	text-align: center;
+	font-size: 7vh;
+	color:#33110b ;
+	font-family: arial ;
+}
+body{
+	background-color: #ffde64;
+}
+
+#digite{
+	color: #33110b;
+	font-family: arial;
+	font-size: 4vh;
+}
+
+#text{
+	width: 50vh;
+	height: 30vh;
+}
+
+#btn{
+	font-family: arial;
+	
+}
